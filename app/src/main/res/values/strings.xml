@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GUIApp</string>
+    <string name="action_settings">Opcje</string>
+    <string name="surname">Nazwisko</string>
+    <string name="name">Imię</string>
+    <string name="notes_count">Liczba ocen</string>
+    <string name="notes">Oceny</string>
+</resources>
