@@ -6,4 +6,8 @@
     <string name="name">Imię</string>
     <string name="notes_count">Liczba ocen</string>
     <string name="notes">Oceny</string>
+    <string name="personNameTextError">Proszę wpisać imię!</string>
+    <string name="personSurnameTextError">Proszę wpisać nazwisko!</string>
+    <string name="notesCountTextError">Podaj ilość ocen!</string>
+    <string name="notesCountTextRangeError">Zła ilość ocen! Podaj wartość z przedziału [5; 15]!</string>
 </resources>

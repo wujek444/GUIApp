@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if(!hasFocus && personNameText.getText().length()==0){
-                        personNameText.setError("Proszę wpisać imię!");
+                        personNameText.setError("@string/personNameTextError");
                 }
             }
         });
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if(!hasFocus && personSurnameText.getText().length()==0){
-                    personSurnameText.setError("Proszę wpisać nazwisko!");
+                    personSurnameText.setError("@string/personSurnameTextError");
                 }
             }
         });
@@ -115,10 +115,10 @@ public class MainActivity extends AppCompatActivity {
             public void onFocusChange(View v, boolean hasFocus) {
                 if(!hasFocus){
                     if(notesCountText.getText().length()==0){
-                       notesCountText.setError("Podaj ilość ocen!");
+                       notesCountText.setError("@string/notesCountTextError");
                     }
                     else if(Integer.parseInt(notesCountText.getText().toString()) < 5 || Integer.parseInt(notesCountText.getText().toString()) > 15) {
-                        notesCountText.setError("Zła ilość ocen! Podaj wartość z przedziału [5; 15]!");
+                        notesCountText.setError("@string/notesCountTextRangeError");
                     }
                 }
             }
